@@ -1,0 +1,104 @@
+.mbprocessbox {
+  margin-left: 5px;
+  width: 740px;
+  height: 1230px;
+  background: white;
+}
+.mbprocessbox .processleft {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+}
+.mbprocessbox .processleft .processFirst {
+  height: 33%;
+  width: 100%;
+}
+.mbprocessbox .jd {
+  margin: 10px auto;
+  height: 100px;
+  position: relative;
+}
+.mbprocessbox .jd .jd-li {
+  font-size: 28px;
+  width: 100%;
+  height: 400px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.mbprocessbox .jd .jd-li:hover .num {
+  color: #cf302f;
+  border: solid 1px #cf302f;
+}
+.mbprocessbox .jd .jd-li.active {
+  cursor: default;
+}
+.mbprocessbox .jd .jd-li.active .num {
+  background-color: #cf302f;
+  color: #fff;
+  border: solid 1px #cf302f;
+  position: relative;
+  z-index: 1;
+}
+.mbprocessbox .jd .jd-li.active.jl1 .num:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 360px;
+  background-color: #cf302f;
+  left: 17px;
+  top: 40px;
+}
+.mbprocessbox .jd .jd-li.active.jl2 .num:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 390px;
+  background-color: #cf302f;
+  left: 17px;
+  top: 11px;
+  z-index: -1;
+}
+.mbprocessbox .jd .jd-li .num {
+  margin-top: 75px;
+  margin-left: 149px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: solid 1px #ccc;
+  background-color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #cf302f;
+  padding-right: 1px;
+  position: relative;
+  z-index: 3;
+}
+.mbprocessbox .jd .jd-li .mbtext {
+  margin-left: 200px;
+  margin-top: -60px;
+  text-align: center;
+}
+.mbprocessbox .jd .jd-li .mbtext .jdt1 {
+  font-size: 30px;
+  color: #000;
+  line-height: 32px;
+  font-weight: bold;
+}
+.mbprocessbox .jd .jd-li .mbtext .jdt2 {
+  font-size: 28px;
+  color: #666;
+}
+.mbprocessbox .jd .jd-box {
+  width: 5px;
+  position: absolute;
+  height: 825px;
+  top: 85px;
+  left: 167px;
+  border: solid 1px #ccc;
+  background-color: #fff;
+}

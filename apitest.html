@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>api test</title>
+		<style type="text/css">
+			.container {
+			    padding: 50px;
+			}
+			.btn-content {
+			    margin-bottom: 20px;
+			}
+			h5 {
+			    margin-bottom: 10px;
+			}
+			pre {
+			    width: 800px;
+			    min-height: 100px;
+			    padding: 10px;
+			    border: 1px solid #999;
+			}
+		</style>
+		<!--<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+		<script>
+		    $(function(){
+		       $('#urlTip').val(function(){
+		           var arr = [location.protocol, '//', location.hostname, location.port ? ':':'', location.port];
+		           return arr.join('');
+//		           var arr = "https://partner.steam-api.com/ISteamGameServerStats/GetGameServerPlayerStatsForGame/v1/"
+//		           return arr
+		       }());
+		       $('#url').val('/steam/steamapi').focus();
+		       function request(){
+		           var request_method = $('#method').val();
+                   var request_url = $('#url').val();
+                   var request_param = $('#param').val();
+                   request_param = request_param.replace(/[\s\r\n]/g,"");
+                   console.log('method:', request_method, 'url:', request_url, 'param:',request_param);
+                   
+                   if (request_method === 'get') {
+                       param=request_param;
+                       $.ajax({
+                       	   type:"get",
+                       	   url: $('#urlTip').val()+request_url+"?"+param,
+                       	   success: function (data) {
+//                     	       if (typeof data === 'object') {
+//                                 data = JSON.stringify(data, null, 4);
+//                             } else {
+//                                 console.warn('return is not obj');
+//                                 data = JSON.stringify(JSON.parse(data), null, 4);
+//                             }
+//                             console.log(data);
+//                             $('#result').html(data);
+                       	   }
+                       });
+                   } else if (request_method === 'post') {
+                       //var param = JSON.stringify(JSON.parse(request_param));
+                       param=request_param;
+                       $.ajax({
+                       	   type:"post",
+                       	   url: $('#urlTip').val()+request_url,
+                       	   data: param,
+                       	   //contentType: "application/x-www-form-urlencoded",
+                       	   success: function (data) {
+                       	       if (typeof data === 'object') {
+                                   data = JSON.stringify(data, null, 4);
+                               } else {
+                                   console.warn('return is not obj');
+                                   data = JSON.stringify(JSON.parse(data), null, 4);
+                               }
+                               console.log(data);
+                               $('#result').html(data);
+                       	   }
+                       });
+                   }
+                   
+		       }
+		       $('#execute').click(request);
+		       //$('#clear').click(clear);
+//		       $(document.body).keydown(function(e) {
+//		           if (e.keyCode === 13) {
+//		               request();
+//		           } else if (e.keyCode === 27) {
+//		               clear();
+//		           }
+//		       });
+//		       $('#param').keydown(function(e) {
+//		           $('#method').val('post');
+//		       });
+		    });
+		</script>
+	</head>
+	<body>
+		<div class="container">
+		    <div class="btn-content">
+		        <button id="execute">Execute</button>
+		    </div>
+		    <select id="method">
+		    	 <option value="post">Post</option>
+		        <option value="get">Get</option>
+		       
+		    </select>
+		    <span ></span>
+		    URL: <input id="urlTip" value="" size="80" style="width: 200px;"/>
+		    <input id="url" value="" size="80" value=""/>
+		    <h5>ParamJson:</h5>
+		    <div>
+		        <textarea id="param" rows="20" cols="100">clientType=web&Version="1"&jsonPara={
+	"url":"https://api.steampowered.com/IPlayerService/GetSteamLevel/v1/",
+	"type":"GET",
+	"data":"key=3545597F5716E8E2923DC1E2B9BB8267%26steamid=76561198192802166"
+} </textarea>
+		    </div>
+		    <h5>Result:</h5>
+		    <pre id="result"></pre>
+		</div>
+		<div>
+			<form method="post" action="http://up.qiniu.com" enctype="multipart/form-data">
+			<input name="token" type="hidden" value="6mS0nc8Qz7g8V25bhVEXNeVNvNf2S0MLmvPam7HM:5X6aHb1IoqvVdJENLw1PdzBGQL4=:eyJzY29wZSI6InVzZXJpbWciLCJkZWFkbGluZSI6MTUwOTAwMzg1MX0=">
+			<input name="file" type="file" />
+			<input type="submit" value="上传" />
+		</form>
+		</div>
+	</body>
+</html>

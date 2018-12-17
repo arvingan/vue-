@@ -1,0 +1,40 @@
+.mb .tabbox {
+  box-shadow: 0px 0px 30px #808080;
+  bottom: -10px;
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+}
+.mb .tableft {
+  color: black;
+  float: left;
+  width: 33%;
+  height: 108px;
+  background: white;
+}
+.mb .tabright {
+  color: black;
+  float: right;
+  width: 33%;
+  height: 108px;
+  background: white;
+}
+.mb .tabmiddle {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  z-index: 600;
+  position: absolute;
+  margin-left: 55px;
+  width: 150px;
+  height: 118px;
+  margin-top: -10px;
+  background: #44464c;
+}
+.mb .tabminddlebox {
+  position: relative;
+  z-index: 50;
+  width: 34%;
+  height: 108px;
+  float: left;
+  background: white;
+}

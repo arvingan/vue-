@@ -1,0 +1,361 @@
+    body {
+        font-size: 16px;
+        background: #EEEEEE;
+        background-image: url(../../img/pc/background/bg.png);
+        .weui-tabbar.bottom {
+            position: fixed;
+        }
+    }
+    .home-new-mb-box{
+        background-color:#fff;
+        padding: 10px;
+        .notice-box{
+            border:solid 4px rgb(203, 72, 72);
+            padding:0 10px 10px 10px;
+            .notice-tit{
+                font-size: 24px;
+                font-weight: bold;
+                color: #666;
+                text-align: center;
+            }
+            li.notice{
+                line-height: 40px;
+                display: block;
+                position: relative;
+                font-size: 20px;
+                color: rgb(203, 72, 72);
+                border-top: solid 1px rgba(203, 72, 72,0.3);
+                .tit{
+                    
+                }
+                .time{
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+    .user-right-body {
+    width: 100%;
+    background: #fff;
+}
+    //登录弹框
+    .user-big-box {
+        width: 500px;
+        height: 600px;
+        border-radius: 3px;
+        background-image: url(../../img/pc/background/pcdialog.png);
+        .ud-input-box {
+            width: 360px;
+            
+            margin: 0 auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            .ud-input-left {
+                border-right: 1px solid #CCCCCC;
+                height: 30px;
+                width: 52px;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 30px;
+            }
+            .ud-remberpass {
+                text-align: left;
+                margin-top: 25px;
+            }
+        }
+        .ud-go-sign {
+            line-height: 50px;
+            text-align: center;
+            font-size: 14px;
+            span {
+                cursor: pointer;
+                color: #2f63cd;
+            }
+        }
+    }
+    
+    .pubilcbtn {
+        width: 360px;
+        height: 48px;
+        border-radius: 6px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 48px;
+        &.login {
+            cursor: pointer;
+            background: #2f63cd;
+            color: white;
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 8px;
+        }
+    }
+    
+    li {
+        display: inline-block
+    }
+    
+    .dialog-daoju {
+        .weui-dialog {
+            overflow: visible;
+        }
+    }
+    
+    //首页
+    .mb {
+        .zzzcbox {
+            float: left;
+            height: auto;
+            width: 100%;
+            background: #e4e6ea;
+            .titlename {
+                padding: 5px;
+                background-color: #fff;
+            }
+        }
+        .helpzzcbox {
+            float: right;
+            height: auto;
+            width: 100%;
+            background: #e4e6ea;
+        }
+        .btnclose {
+            float: left;
+            width: 280px;
+            height: 100%;
+        }
+        .vux-slider {
+            width: 510px;
+            margin: auto;
+            height: 180px;
+        }
+        .gamehomeheet {
+            width: 100%;
+            height: 220px;
+            margin-left: 8px;
+        }
+        .title {
+            margin-top: 20px;
+            width: 100%;
+            height: 145px;
+            background: white;
+        }
+        .weui-tabbar__icon {
+            width: 40px !important;
+            height: 35px !important;
+        }
+        body {
+            padding-bottom: 100px !important;
+        }
+    }
+    
+    //右边遮罩层
+    .zzzc {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 701;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    //右侧导航栏
+    .tipname {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+//      border-radius: 10px 0 0 10px;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background: white;
+        position: relative;
+        //border-top: 1px solid #CCCCCC;
+        float: right;
+        &.active {
+            //margin-top: 10px;
+            border-top: 1px solid #CCCCCC;
+        }
+        .tipnumber {
+            font-weight: bold;
+            min-width: 30px;
+            padding-left: 5px;
+            padding-right: 5px;
+            height: 20px;
+            background: red;
+            color: white;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            top: 5px;
+            z-index: 1;
+            margin-left: 20px;
+            text-align: center;
+        }
+    }
+
+    
+    
+    .mb {
+        //手机底部按钮
+        .abox {
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+            z-index: 11;
+        }
+        .regares {
+            width: 100%;
+            z-index: 5;
+            overflow: hidden;
+            height: 60px;
+            background: #fff;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+        }
+        .regaresbox {
+            border-radius: 6px 6px 0 0;
+            line-height: 63px;
+            font-weight: bold;
+            font-size: 24px;
+            margin-left: 160px;
+            z-index: 10;
+            position: absolute;
+            color: white;
+            text-align: center;
+            width: 200px;
+            height: 65px;
+            margin-top: -5px;
+            background: rgb(208, 48, 47);
+        }
+    }
+    
+    //验证码
+    .vp-dark-btn.vp-basic-btn {
+        max-height: 80px !important;
+    }
+    
+    .vp-tip {
+        font-size: 32px !important;
+        line-height: 80px;
+        font-weight: bold;
+    }
+    
+    .vp-dark-btn.vp-basic-btn .vp-shield {
+        width: 70px !important;
+    }
+    
+    .vp-dark-btn.vp-default-btn .vp-shield i {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .vaptcha-pop-dt .vaptcha-pop {
+        max-width: 600px !important;
+        height: 500px !important;
+    }
+    
+    .vp-code {
+        width: 600px !important;
+        height: 400px !important;
+    }
+    
+    .vaptcha-pop-dt .vaptcha .vp-main>.vp-code {
+        max-height: 450px !important;
+    }
+    
+    .vaptcha-float-cont {
+        z-index: 800;
+    }
+    
+    .vaptcha-float-cont {
+        width: 550px;
+        height: 330px;
+    }
+    
+    .mb {
+        .app-header {
+            width: 100%;
+            height: 60px;
+            background: #fff;
+            overflow: hidden;
+            position: fixed;
+            top: 0px;
+            z-index: 9;
+            .icon {
+                width: 60px;
+                height: 60px;
+                position: relative;
+                z-index: 9;
+                &::before {
+                    content: "";
+                    margin: 0px auto;
+                    height: 60px;
+                    width: 60px;
+                    display: block;
+                    background-size: 100%;
+                }
+                &.app-userown {
+                    position: absolute;
+                    left: 0px;
+                    &::before {
+                        background-image: url('../../img/mbicon/我2.png');
+                    }
+                }
+                &.app-left {
+                    position: absolute;
+                    left: 0px;
+                    &::before {
+                        background-image: url('../../img/mbicon/返回2.png');
+                    }
+                }
+                &.app-middle {
+                    margin: auto;
+                    &::before {
+                        background-image: url('../../img/mbicon/图标2.png');
+                    }
+                }
+                &.app-right {
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    &::before {
+                        background-image: url('../../img/mbicon/我2.png');
+                    }
+                }
+            }
+        }
+    }
+    
+    //toast  
+
+    
+
+    
+    
+    
+    .pointer {
+        cursor: pointer;
+    }
+    
+    .bgCCCCCC {
+        background-color: #CCCCCC;
+    }
+    
+    .bgae1179 {
+        background-color: #1179ae;
+    }
+    
+    .bgc999999 {
+        background-color: #999999;
+    }
+    
+    .bgd03030 {
+        background-color: #d03030;
+    }

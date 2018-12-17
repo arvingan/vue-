@@ -1,0 +1,205 @@
+.shop-cart-box {
+    width: 880px;
+    background: #dcdcdc;
+    height: auto;
+    //  padding-bottom: 40px;
+    margin: 50px auto;
+    .sp-head {
+        width: 100%;
+        height: 45px;
+        background: #c2c2c2;
+        .sp-cur {
+            float: left;
+            width: 60px;
+            position: relative;
+            .sp-choose {
+                cursor: pointer;
+                position: absolute;
+                left: 8px;
+                top: 8px;
+                &::before {
+                    line-height: 45px;
+                    content: url(../../img/pc/未选择.png);
+                }
+            }
+            .sp-choose-ok {
+                cursor: pointer;
+                position: absolute;
+                left: 8px;
+                top: 8px;
+                &::before {
+                    line-height: 45px;
+                    content: url(../../img/pc/已选择.png);
+                }
+            }
+            .sp-title {
+                font-size: 14px;
+                position: absolute;
+                right: 0;
+                line-height: 45px;
+            }
+        }
+        .sp-detail {
+            text-align: center;
+            line-height: 45px;
+            font-size: 14px;
+            float: left;
+            width: 620px;
+        }
+        .sp-num {
+            text-align: center;
+            line-height: 45px;
+            font-size: 14px;
+            float: left;
+            width: 140px;
+        }
+        .sp-money {
+       
+            text-align: center;
+            line-height: 45px;
+            font-size: 14px;
+            float: left;
+            width: 100px;
+        }
+    }
+    .sp-content {
+        width: 845px;
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 100px;
+        position: relative;
+        .sp-cur-choose {
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            top: 0;
+            &::before {
+                content: url(../../img/pc/未选择.png);
+            }
+        }
+        .sp-cur-choose-ok {
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            top: 0;
+            &::before {
+                content: url(../../img/pc/已选择.png);
+            }
+        }
+        .sp-cur-goods {
+            width: 810px;
+            background: white;
+            margin-left: 30px;
+            .list-model {
+                margin-left: 40px;
+                float: left;
+            }
+            .spl-number {
+                float: left;
+                background: white;
+                height: 100%;
+                line-height: 100px;
+                .vux-inline-x-number {
+                    cursor: pointer;
+                    height: 22px;
+                }
+                .vux-number-input {
+                    font-size: 16px !important;
+                    height: 20px;
+                    border: 1px solid #EEEEEE !important;
+                }
+                .vux-number-selector-sub {
+                    background-color: #eeeeee;
+                    padding: 0px 2px 2px 0px !important;
+                    border: 1px solid #CCCCCC;
+                }
+                .vux-number-selector-plus {
+                    border: 1px solid #CCCCCC;
+                    margin-right: 0px !important;
+                    padding: 0px 0px 0px 0px !important;
+                }
+                .vux-number-selector svg{
+                    fill:#cccccc;
+                }
+            }
+            .spl-money {
+                     position: absolute;
+                  right: 20px;
+                height: 100%;
+                line-height: 85px;
+                font-size: 14px;
+                color: red;
+                font-weight: bold;
+                margin-left: 30px;
+            }
+        }
+    }
+    .sp-foot {
+        width: 100%;
+        height: 50px;
+        margin-top: 40px;
+        background: #c2c2c2;
+          .sp-cur {
+            float: left;
+            width: 60px;
+            position: relative;
+            .sp-choose {
+                cursor: pointer;
+                position: absolute;
+                left: 8px;
+                top: 8px;
+                &::before {
+                    line-height: 48px;
+                    content: url(../../img/pc/未选择.png);
+                }
+            }
+            .sp-choose-ok {
+                cursor: pointer;
+                position: absolute;
+                left: 8px;
+                top: 8px;
+                &::before {
+                    line-height: 48px;
+                    content: url(../../img/pc/已选择.png);
+                }
+            }
+            .sp-title {
+                font-size: 14px;
+                position: absolute;
+                right: 0;
+                line-height: 50px;
+            }
+        }
+        .sp-delete{
+            cursor: pointer;
+            text-align: center;
+            line-height: 50px;
+            font-size: 14px;
+            float: left;
+            width: 200px;
+        }
+        .sp-all-money{
+         width: 150px;
+         line-height: 50px;
+         font-size: 18px;
+         float: left;
+         margin-left: 400px;  
+         span{
+             font-weight: bold;
+             color: #cf302f;
+         } 
+        }
+        .sp-pay{
+            float: right;
+            width: 115px;
+            text-align: center;
+             line-height: 50px;
+             font-size: 18px;
+             color: white;
+             background-color: #cf302f ;
+             font-weight: bold;
+             letter-spacing: 5px;
+             cursor:pointer;
+        }
+    }
+}

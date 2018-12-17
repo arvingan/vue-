@@ -1,0 +1,454 @@
+.vux-popup-mask.vux-popup-show {
+  z-index: 50 !important;
+}
+.home-button-box {
+  overflow: auto;
+}
+.home-button-box .i-box {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  width: 190px;
+  height: 120px;
+  float: left;
+  cursor: pointer;
+  margin-left: 22px;
+}
+.home-button-box .i-box:hover {
+  webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.home-button-box .i-box.first {
+  margin-left: 8px;
+}
+.home-button-box .i-box:hover .text {
+  color: #333;
+}
+.home-button-box .i-box .text {
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  color: #777;
+}
+.home-button-box .i-box .icon {
+  width: 70px;
+  height: 70px;
+  margin: 5px auto 0;
+  background-size: 100%;
+}
+.home-button-box .i-box .icon.i1 {
+  background-image: url(../../img/icon/ht1.png);
+}
+.home-button-box .i-box .icon.i2 {
+  background-image: url(../../img/icon/ht2.png);
+}
+.home-button-box .i-box .icon.i3 {
+  background-image: url(../../img/icon/ht3.png);
+}
+.home-button-box .i-box .icon.i4 {
+  background-image: url(../../img/icon/ht4.png);
+}
+.swiper-container {
+  width: 100%;
+  height: 250px;
+}
+.swiper-container img {
+  height: 250px;
+  width: auto;
+}
+html {
+  height: 100%;
+  font-size: 1px;
+  min-width: 900px;
+  color: #333;
+}
+html.web .index-content-tt {
+  display: none;
+}
+body {
+  height: auto;
+  overflow-y: auto;
+  font-size: 12px;
+  min-width: 900px;
+  width: 100%;
+  background-position-y: 110px;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-image: url(../../img/pc/background/bg.jpg);
+}
+body .newsbox {
+  width: 875px;
+  margin: 10px auto;
+}
+.newsbox {
+  color: #666;
+  width: 1100px;
+  margin: 90px auto;
+  background-color: #fff;
+  padding: 30px 10px;
+  line-height: 30px;
+}
+.a-button {
+  cursor: pointer;
+}
+.a-blue {
+  color: #2ea4df;
+}
+.tit,
+.tit * {
+  font-weight: bold;
+}
+.t1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.off-button {
+  background-color: #999 !important;
+  cursor: default !important;
+}
+.t2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+a {
+  color: #2f63cd;
+}
+a:hover {
+  color: #0b2966;
+}
+.web-content {
+  padding: 1px 0;
+  position: relative;
+}
+.pcweb-dialog-box {
+  width: 380px;
+  background-color: #eee;
+  padding: 10px;
+  color: #333;
+}
+.web-center-box {
+  width: 900px;
+  margin: 30px auto 15px;
+  position: relative;
+}
+.table-list-box th,
+.table-list-box td {
+  line-height: 30px;
+  border-bottom: solid 1px #666;
+}
+.table-list-box .off-tr {
+  color: #666;
+}
+.newsbox {
+  color: #666;
+  width: 1100px;
+  margin: 90px auto;
+  background-color: #fff;
+  padding: 30px 10px;
+  line-height: 30px;
+}
+.ui-dialog-content {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.htmlDialog .ui-dialog-content {
+  padding: 0px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.web .vux-slider {
+  width: 100%;
+  height: auto;
+}
+.web .vux-swiper {
+  height: 255px !important;
+}
+.user-game-box {
+  width: 400px !important;
+  margin: 6% auto 0 !important;
+  overflow-y: hidden !important;
+  left: 10% !important;
+  right: 10% !important;
+  background-color: #eee !important;
+}
+.user-game-box input {
+  font-size: 14px;
+}
+.input-box {
+  position: relative;
+}
+.typebox {
+  color: #ccc;
+  font-size: 16px;
+}
+.typeall {
+  width: 100%;
+  min-height: 50px;
+}
+.type {
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  width: 150px;
+  height: 50px;
+  background: #1179ae;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.typeone.active {
+  color: #cf302f;
+  font-weight: bold;
+}
+.typeone {
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 25px;
+  float: left;
+  min-width: 70px;
+  height: 25px;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+}
+.statusbox {
+  color: #ccc;
+  font-size: 16px;
+  min-height: 50px;
+}
+.statusall {
+  background: white;
+  width: 840px;
+  margin: auto;
+  height: 80px;
+}
+.status {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  width: 140px;
+  height: 50px;
+  background: white;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.statusone.active {
+  color: #cf302f;
+}
+.statusone {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 25px;
+  float: left;
+  min-width: 70px;
+  height: 25px;
+  background: white;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+.box-shadow {
+  webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.weiduan-box {
+  position: relative;
+}
+.weiduan-box img {
+  margin-top: 10px;
+}
+.weiduan-box .weiduan-down-btn {
+  width: 180px;
+  height: 45px;
+  position: absolute;
+  top: 265px;
+  left: 95px;
+  background: rgba(250, 250, 250, 0);
+  cursor: pointer;
+}
+.goods-list-box {
+  padding-bottom: 10px;
+  min-height: 500px;
+  background-color: #dcdcdc;
+  margin-top: 50px;
+}
+.pointer {
+  cursor: pointer;
+}
+.user-right-body {
+  width: 580px;
+  background: #fff;
+}
+.user-right-content {
+  width: 560px;
+  margin: 0 auto;
+}
+.home-new-box {
+  background-image: url(../../img/pc/homebg_15.jpg);
+  width: 840px;
+  height: 194px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+.home-new-box .goal-box {
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  top: 33px;
+  left: 55px;
+  overflow: hidden;
+  padding-left: 24px;
+}
+.home-new-box .goal-box .goal-left-button {
+  width: 24px;
+  position: absolute;
+  left: 0px;
+}
+.home-new-box .goal-box .goal-left-button .g-button {
+  line-height: 24px;
+  width: 24px;
+  height: 75px;
+  writing-mode: vertical-lr;
+  /*从左向右 从右向左是 writing-mode: vertical-rl;*/
+  writing-mode: tb-lr;
+  /*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+  text-align: center;
+  font-weight: bold;
+  background-color: #666;
+  color: #fff;
+  cursor: pointer;
+}
+.home-new-box .goal-box .goal-left-button .g-button:hover {
+  background-color: #ff4400;
+}
+.home-new-box .goal-box .goal-left-button .g-button.active {
+  background-color: #fff;
+  color: #ff4400;
+  cursor: default;
+}
+.home-new-box .goal-box .goal-sroll {
+  position: absolute;
+}
+.home-new-box .goal-box li.goal {
+  padding: 0 5px;
+  overflow: auto;
+  line-height: 25px;
+  display: block;
+}
+.home-new-box .goal-box li.goal:hover {
+  background-color: #eee;
+}
+.home-new-box .goal-box li.goal .goalbuyname {
+  width: 100px;
+  float: left;
+  height: 25px;
+  overflow: hidden;
+}
+.home-new-box .goal-box li.goal .goodsname {
+  width: 240px;
+  float: left;
+  height: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+.home-new-box .goal-box li.goal .overtime {
+  width: 120px;
+  float: right;
+  text-align: right;
+  height: 25px;
+  overflow: hidden;
+}
+.home-new-box .notice-box {
+  position: absolute;
+  width: 264px;
+  height: 144px;
+  top: 36px;
+  right: 11px;
+  margin-top: 30px;
+}
+.home-new-box .notice-box li.notice {
+  display: block;
+  padding: 0 5px;
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  line-height: 28px;
+  overflow: auto;
+  color: #fff;
+}
+.home-new-box .notice-box li.notice:hover {
+  background-color: #fff;
+  color: #d03030;
+}
+.home-new-box .notice-box li.notice .tit {
+  width: 200px;
+  height: 28px;
+  overflow: hidden;
+  float: left;
+}
+.home-new-box .notice-box li.notice .time {
+  width: 50px;
+  height: 28px;
+  overflow: hidden;
+  float: right;
+  text-align: right;
+}
+.index-webdata-box {
+  width: 840px;
+  height: auto;
+  overflow: auto;
+}
+.index-webdata-box .li {
+  width: 270px;
+  margin-left: 8px;
+  height: 80px;
+  float: left;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.index-webdata-box .li .tit {
+  width: 105px;
+  margin: 10px 0;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-right: solid 1px #aaa;
+  float: left;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.index-webdata-box .li .number {
+  width: 160px;
+  padding: 10px;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}

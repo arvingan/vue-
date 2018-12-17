@@ -1,0 +1,309 @@
+body {
+  font-size: 16px;
+  background: #EEEEEE;
+  background-image: url(../../img/pc/background/bg.png);
+}
+body .weui-tabbar.bottom {
+  position: fixed;
+}
+.home-new-mb-box {
+  background-color: #fff;
+  padding: 10px;
+}
+.home-new-mb-box .notice-box {
+  border: solid 4px #cb4848;
+  padding: 0 10px 10px 10px;
+}
+.home-new-mb-box .notice-box .notice-tit {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+}
+.home-new-mb-box .notice-box li.notice {
+  line-height: 40px;
+  display: block;
+  position: relative;
+  font-size: 20px;
+  color: #cb4848;
+  border-top: solid 1px rgba(203, 72, 72, 0.3);
+}
+.home-new-mb-box .notice-box li.notice .time {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.user-right-body {
+  width: 100%;
+  background: #fff;
+}
+.user-big-box {
+  width: 500px;
+  height: 600px;
+  border-radius: 3px;
+  background-image: url(../../img/pc/background/pcdialog.png);
+}
+.user-big-box .ud-input-box {
+  width: 360px;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.user-big-box .ud-input-box .ud-input-left {
+  border-right: 1px solid #CCCCCC;
+  height: 30px;
+  width: 52px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.user-big-box .ud-input-box .ud-remberpass {
+  text-align: left;
+  margin-top: 25px;
+}
+.user-big-box .ud-go-sign {
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+.user-big-box .ud-go-sign span {
+  cursor: pointer;
+  color: #2f63cd;
+}
+.pubilcbtn {
+  width: 360px;
+  height: 48px;
+  border-radius: 6px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 48px;
+}
+.pubilcbtn.login {
+  cursor: pointer;
+  background: #2f63cd;
+  color: white;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+li {
+  display: inline-block;
+}
+.dialog-daoju .weui-dialog {
+  overflow: visible;
+}
+.mb .zzzcbox {
+  float: left;
+  height: auto;
+  width: 100%;
+  background: #e4e6ea;
+}
+.mb .zzzcbox .titlename {
+  padding: 5px;
+  background-color: #fff;
+}
+.mb .helpzzcbox {
+  float: right;
+  height: auto;
+  width: 100%;
+  background: #e4e6ea;
+}
+.mb .btnclose {
+  float: left;
+  width: 280px;
+  height: 100%;
+}
+.mb .vux-slider {
+  width: 510px;
+  margin: auto;
+  height: 180px;
+}
+.mb .gamehomeheet {
+  width: 100%;
+  height: 220px;
+  margin-left: 8px;
+}
+.mb .title {
+  margin-top: 20px;
+  width: 100%;
+  height: 145px;
+  background: white;
+}
+.mb .weui-tabbar__icon {
+  width: 40px !important;
+  height: 35px !important;
+}
+.mb body {
+  padding-bottom: 100px !important;
+}
+.zzzc {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 701;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.tipname {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: white;
+  position: relative;
+  float: right;
+}
+.tipname.active {
+  border-top: 1px solid #CCCCCC;
+}
+.tipname .tipnumber {
+  font-weight: bold;
+  min-width: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 20px;
+  background: red;
+  color: white;
+  line-height: 20px;
+  border-radius: 6px;
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  margin-left: 20px;
+  text-align: center;
+}
+.mb .abox {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 11;
+}
+.mb .regares {
+  width: 100%;
+  z-index: 5;
+  overflow: hidden;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+.mb .regaresbox {
+  border-radius: 6px 6px 0 0;
+  line-height: 63px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 160px;
+  z-index: 10;
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 65px;
+  margin-top: -5px;
+  background: #d0302f;
+}
+.vp-dark-btn.vp-basic-btn {
+  max-height: 80px !important;
+}
+.vp-tip {
+  font-size: 32px !important;
+  line-height: 80px;
+  font-weight: bold;
+}
+.vp-dark-btn.vp-basic-btn .vp-shield {
+  width: 70px !important;
+}
+.vp-dark-btn.vp-default-btn .vp-shield i {
+  width: 50px;
+  height: 50px;
+}
+.vaptcha-pop-dt .vaptcha-pop {
+  max-width: 600px !important;
+  height: 500px !important;
+}
+.vp-code {
+  width: 600px !important;
+  height: 400px !important;
+}
+.vaptcha-pop-dt .vaptcha .vp-main > .vp-code {
+  max-height: 450px !important;
+}
+.vaptcha-float-cont {
+  z-index: 800;
+}
+.vaptcha-float-cont {
+  width: 550px;
+  height: 330px;
+}
+.mb .app-header {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+}
+.mb .app-header .icon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  z-index: 9;
+}
+.mb .app-header .icon::before {
+  content: "";
+  margin: 0px auto;
+  height: 60px;
+  width: 60px;
+  display: block;
+  background-size: 100%;
+}
+.mb .app-header .icon.app-userown {
+  position: absolute;
+  left: 0px;
+}
+.mb .app-header .icon.app-userown::before {
+  background-image: url('../../img/mbicon/我2.png');
+}
+.mb .app-header .icon.app-left {
+  position: absolute;
+  left: 0px;
+}
+.mb .app-header .icon.app-left::before {
+  background-image: url('../../img/mbicon/返回2.png');
+}
+.mb .app-header .icon.app-middle {
+  margin: auto;
+}
+.mb .app-header .icon.app-middle::before {
+  background-image: url('../../img/mbicon/图标2.png');
+}
+.mb .app-header .icon.app-right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.mb .app-header .icon.app-right::before {
+  background-image: url('../../img/mbicon/我2.png');
+}
+.pointer {
+  cursor: pointer;
+}
+.bgCCCCCC {
+  background-color: #CCCCCC;
+}
+.bgae1179 {
+  background-color: #1179ae;
+}
+.bgc999999 {
+  background-color: #999999;
+}
+.bgd03030 {
+  background-color: #d03030;
+}

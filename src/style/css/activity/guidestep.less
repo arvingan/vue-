@@ -1,0 +1,112 @@
+.mbprocessbox{
+    margin-left: 5px;
+    width: 740px;
+    height: 1230px;
+    background: white;
+    .processleft{
+        margin: auto;
+        width: 50%;
+        height: 100%;
+        .processFirst{
+            height: 33%;
+            width: 100%;
+        }
+    }
+//  .processright{
+//      float: left;
+//      width: 50%;
+//      height: 100%;
+//  }
+    .jd {
+//      width: 740px;
+        margin: 10px auto;
+        height: 100px;
+        position: relative;
+        .jd-li {
+            font-size: 28px;
+            width: 100%;
+            height: 400px;
+            float: left;
+            position: relative;
+            cursor: pointer;
+            &:hover .num {
+                color: #cf302f;
+                border: solid 1px #cf302f;
+            }
+            &.active {
+                cursor: default;
+                .num {
+                    background-color: #cf302f;
+                    color: #fff;
+                    border: solid 1px #cf302f;
+                    position: relative;
+                    z-index: 1;
+                }
+                &.jl1 .num:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 5px;
+                    height: 360px;
+                    background-color: #cf302f;
+                    left: 17px;
+                    top: 40px;
+                }
+                &.jl2 .num:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 5px;
+                    height: 390px;
+                    background-color: #cf302f;
+                    left: 17px;
+                    top: 11px;
+                    z-index: -1;
+                }
+            }
+            .num {
+                margin-top:75px;
+                margin-left: 149px;
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                border: solid 1px #ccc;
+                background-color: #fff;
+                line-height: 40px;
+                text-align: center;
+                font-size: 28px;
+                font-weight: bold;
+                color: #cf302f;
+                padding-right: 1px;
+                    position: relative;
+                z-index: 3;
+            }
+            .mbtext {
+                margin-left: 200px;
+                margin-top: -60px;
+                text-align: center;
+                .jdt1 {
+                    font-size: 30px;
+                    color: #000;
+                    line-height: 32px;
+                    font-weight: bold;
+                }
+                .jdt2 {
+                    font-size: 28px;
+                    color: #666;
+                }
+            }
+        }
+        .jd-box {
+            width: 5px;
+            position: absolute;
+            height: 825px;
+            top: 85px;
+            left: 167px;
+            border: solid 1px #ccc;
+            background-color: #fff;
+        }
+    }
+
+}
+  
